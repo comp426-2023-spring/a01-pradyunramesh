@@ -15,7 +15,7 @@ const port = input.port || 3000;
 
 fs.readFile('/public/index.html',(err, data) => {
    if(err){
-      console.err(err);
+      console.error(err);
       return;
    }
    const server = http.createServer((req,res) => {
