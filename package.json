@@ -1,0 +1,27 @@
+{
+  "name": "a01-webserver",
+  "version": "1.0.0",
+  "description": "Simple web-server that takes 1 argument for port and serves any files in the public directory",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-pradyunramesh.git"
+  },
+  "keywords": [
+    "\"web\"",
+    "\"server\"",
+    "\"node\""
+  ],
+  "author": "pradyunramesh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-pradyunramesh/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-pradyunramesh#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
