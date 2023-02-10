@@ -18,7 +18,7 @@ fs.readFile('/public/index.html',(err, data) => {
       console.err(err);
       return;
    }
-   const.server = http.createServer((req,res) => {
+   const server = http.createServer((req,res) => {
       res.statusCode = 200;
       res.setHeader('Content-Type','text/html');
       res.end(data);
