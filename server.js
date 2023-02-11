@@ -23,8 +23,8 @@ fs.readFile('./public/index.html',(err, data) => {
       res.setHeader('Content-Type','text/html');
       res.end(data);
    });
+   server.listen(port, () => { console.log("Server listening on port" + port); });
 });
-server.listen(port, () => {console.log("Server listening on port" + port)} );
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
 // The function should have three responses: 
